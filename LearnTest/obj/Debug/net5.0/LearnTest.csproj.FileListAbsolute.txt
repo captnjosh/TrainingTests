@@ -1,0 +1,16 @@
+D:\source\repos\!TrainingTests\LearnTest\bin\Debug\net5.0\LearnTest.exe
+D:\source\repos\!TrainingTests\LearnTest\bin\Debug\net5.0\LearnTest.deps.json
+D:\source\repos\!TrainingTests\LearnTest\bin\Debug\net5.0\LearnTest.runtimeconfig.json
+D:\source\repos\!TrainingTests\LearnTest\bin\Debug\net5.0\LearnTest.runtimeconfig.dev.json
+D:\source\repos\!TrainingTests\LearnTest\bin\Debug\net5.0\LearnTest.dll
+D:\source\repos\!TrainingTests\LearnTest\bin\Debug\net5.0\ref\LearnTest.dll
+D:\source\repos\!TrainingTests\LearnTest\bin\Debug\net5.0\LearnTest.pdb
+D:\source\repos\!TrainingTests\LearnTest\obj\Debug\net5.0\LearnTest.csproj.AssemblyReference.cache
+D:\source\repos\!TrainingTests\LearnTest\obj\Debug\net5.0\LearnTest.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\repos\!TrainingTests\LearnTest\obj\Debug\net5.0\LearnTest.AssemblyInfoInputs.cache
+D:\source\repos\!TrainingTests\LearnTest\obj\Debug\net5.0\LearnTest.AssemblyInfo.cs
+D:\source\repos\!TrainingTests\LearnTest\obj\Debug\net5.0\LearnTest.csproj.CoreCompileInputs.cache
+D:\source\repos\!TrainingTests\LearnTest\obj\Debug\net5.0\LearnTest.dll
+D:\source\repos\!TrainingTests\LearnTest\obj\Debug\net5.0\ref\LearnTest.dll
+D:\source\repos\!TrainingTests\LearnTest\obj\Debug\net5.0\LearnTest.pdb
+D:\source\repos\!TrainingTests\LearnTest\obj\Debug\net5.0\LearnTest.genruntimeconfig.cache

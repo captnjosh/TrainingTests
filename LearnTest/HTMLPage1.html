@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+	    var person = new Object();
+
+	    person.name = "chris";
+	    person["lname"] = "lafrance";
+	    person.getFullname = function() { return this.name + " " + this.lname };
+
+			console.log(person);
+			console.log(person.getFullname());
+
+			console.log(person.firstName); // returns undefined
+			if (typeof (person.firstName) === "undefined") console.log("if undefined");
+
+			if(person.hasOwnProperty("firstName")){
+				person.firstName;
+			}
+
+			for(var prop in person){
+				console.log(prop);  // access property name
+				console.log(person[prop]);
+			};
+
+			var _now = new Date();
+			console.log(_now);
+			
+    </script>
+</head>
+<body>
+
+</body>
+</html>
