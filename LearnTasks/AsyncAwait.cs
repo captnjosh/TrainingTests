@@ -4,10 +4,10 @@ using System.Threading.Tasks;
 
 namespace LearnTasks
 {
-	internal static class AsycBreakfast
+	internal static class AsyncBreakfast
 	{
 
-		public static async Task AsycAwait()
+		public static async Task AsyncAwait()
 		{
 			var start = DateTime.Now;
 

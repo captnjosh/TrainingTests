@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Text;
@@ -14,14 +15,22 @@ namespace LearnTasks
 			return Task.Run(() => Console.WriteLine("no async"));
 		}
 
+		public static List<int> FirstThree(List<int> list)
+		{
+			//return list.Select(x => x % 2 == 0).Take(3).ToList();
+			return list.Where(x => x % 2 == 0).Take(3).ToList();
+		}
+
 		private static async Task Main(string[] args)
 		{
 			Console.WriteLine(test.one);
 
-			await AsycBreakfast.AsycAwait();
+			//await AsycBreakfast.AsycAwait();
 
-			await NoAsync();
-			return;
+			//await NoAsync();
+
+			List<int> myList = new List<int>() { 1, 2, 3, 4, 5, 6 };
+			Console.WriteLine(string.Join("\t", FirstThree(myList)));
 
 			//Solution1 test = new Solution1();
 			//Console.WriteLine(test.solution1(1041));
@@ -114,8 +123,7 @@ namespace LearnTasks
 			}
 
 		}
-
-
+		
 		enum color: int
 		{ 
 			red,
@@ -126,7 +134,6 @@ namespace LearnTasks
 			yellow // has value 11
 		}
 	
-		
 		private enum test
 		{
 			one
@@ -361,7 +368,6 @@ namespace LearnTasks
 			return result;
 		}
 	}
-
 
 	internal class Solution10
 	{
